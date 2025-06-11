@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulario de contacto de la Pizzería Artesanal para consultas, pedidos y sugerencias.">
+  <meta name="author" content="Pizzería Artesanal">
+  <meta name="keywords" content="pizzería, contacto, pedidos, formulario, artesanal">
+  <title>Contacto | Pizzería Artesanal</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Pizzería Artesanal</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="menu.html">Menú</a></li>
+          <li><a class="activo" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Formulario de Contacto</h2>
+      <p>Completa el siguiente formulario para comunicarte con nosotros. Estaremos encantados de atender tus consultas, sugerencias o pedidos personalizados.</p>
+
+      <form action="#" method="post">
+        <div class="campo">
+          <label for="nombre">Nombre completo:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+        </div>
+
+        <div class="campo">
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+        </div>
+
+        <div class="campo">
+          <label for="telefono">Número de teléfono:</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="123456789">
+        </div>
+
+        <div class="campo">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+
+        <div class="campo">
+          <button type="submit">Enviar mensaje</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Pizzería Artesanal. Todos los derechos reservados.</p>
+      <p><a href="mailto:contacto@pizzeriaartesanal.com">contacto@pizzeriaartesanal.com</a></p>
+    </div>
+  </footer>
+</body>
+</html>

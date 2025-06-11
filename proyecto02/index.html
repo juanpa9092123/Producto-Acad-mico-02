@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pizzería artesanal con ingredientes frescos y sabores únicos.">
+  <meta name="keywords" content="pizzería, pizza artesanal, comida italiana, Don Frank">
+  <meta name="author" content="Frank Wilbert">
+  <link rel="icon" href="/imagenes/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/estilo.css">
+  <title>Inicio | Pizzería Don Frank</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Pizzería Don Frank</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html" class="activo">Inicio</a></li>
+          <li><a href="menu.html">Menú</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="bienvenida">
+      <h2>Bienvenido a la mejor pizzería de la ciudad 🍕</h2>
+      <br><br>
+      <p>En Pizzería Don Frank no solo hacemos pizzas, creamos momentos inolvidables. Cada porción es una mezcla perfecta de tradición, pasión y sabor. Utilizamos ingredientes 100% frescos seleccionados cuidadosamente, y nuestra masa, hecha artesanalmente cada mañana, es el alma de cada pizza que servimos. Desde el primer bocado sentirás la diferencia: una explosión de sabor que te transporta al corazón de Italia, con el toque único que solo Don Frank puede ofrecer. Ven, comparte, disfruta... porque en Don Frank, cada pizza cuenta una historia.</p>
+      <br><br>
+      <picture>
+        <source srcset="imagenes/pizza-grande.jpg" media="(min-width: 768px)">
+        <source srcset="imagenes/pizza-mediana.jpg" media="(min-width: 480px)">
+        <img src="imagenes/pizza-pequena.jpg" alt="Pizza recién horneada">
+      </picture>
+    </section>
+
+    <section class="especialidad">
+      <h2>Nuestra especialidad de la casa</h2>
+      <figure>
+        <img src="imagenes/pizza-especial.jpg" alt="Pizza Especial Don Frank" usemap="#mapaPizza">
+        <figcaption>La pizza más pedida, con jamón, champiñones, aceitunas y mucho queso.</figcaption>
+      </figure>
+      <map name="mapaPizza">
+        <area shape="rect" coords="50,50,150,150" alt="Tomate" href="#" title="Tomate natural">
+        <area shape="circle" coords="220,120,40" alt="Queso" href="#" title="Queso mozzarella">
+      </map>
+    </section>
+
+    <section class="galeria-video">
+      <h2>Conócenos en acción</h2>
+      <video controls width="100%">
+        <source src="multimedia/pizzeria.mp4" type="video/mp4">
+        Tu navegador no soporta la reproducción de video.
+      </video>
+    </section>
+
+    <section class="historia">
+      <h2>Nuestra historia</h2>
+      <p>La Pizzería Don Frank nació del sueño de unir la tradición familiar con la pasión por la cocina. Con más de 10 años de trayectoria, nos hemos convertido en un referente local de sabor y calidad.</p>
+    </section>
+
+    <section class="ubicacion">
+      <h2>¿Dónde estamos?</h2>
+      <p>📍 Nos encuentras en la Av. Central 123, Ciudad Sabor. ¡Te esperamos con los brazos abiertos y el horno encendido!</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Pizzería Don Frank. Todos los derechos reservados.</p>
+      <p>Síguenos en nuestras redes sociales: 
+        <a href="#">Facebook</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">TikTok</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
